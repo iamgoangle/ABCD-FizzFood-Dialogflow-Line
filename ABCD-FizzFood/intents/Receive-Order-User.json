@@ -1,0 +1,55 @@
+{
+  "id": "803b77ed-3a03-4caa-b7a2-bc4b4154768c",
+  "parentId": "041d2753-609c-4199-9529-489a776c4f5d",
+  "rootParentId": "041d2753-609c-4199-9529-489a776c4f5d",
+  "name": "Receive-Order-User",
+  "auto": true,
+  "contexts": [
+    "Pre-Order-Food-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Pre-Order-Food.Pre-Order-Food-custom",
+      "affectedContexts": [
+        {
+          "name": "Receive-Order-User",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "Receive-Order-User-followup-2",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f661f9d8-dd81-41b9-966d-ec1909aab42e",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "menuitem",
+          "value": "$menuitem",
+          "prompts": [],
+          "defaultValue": "",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "th",
+          "speech": "คุณลูกค้าต้องการสั่ง $menuitem สำหรับกี่ท่าน ดีค่ะ?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510944718,
+  "fallbackIntent": false,
+  "events": []
+}

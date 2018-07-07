@@ -1,0 +1,57 @@
+[
+  {
+    "id": "4f47c531-a64a-49ee-9e1b-7ffbd48762a3",
+    "data": [
+      {
+        "text": "สั่งของกิน",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "929e3444-dff7-4cb9-ae3b-d7de312fff77",
+    "data": [
+      {
+        "text": "ออเด้อ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "36d172c2-b53e-4f6e-94e7-802155b325cd",
+    "data": [
+      {
+        "text": "ออร์เดอร์",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a50e9058-eb99-47be-b58f-2b4b2296b6f2",
+    "data": [
+      {
+        "text": "สั่ง",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9165ce77-201a-45e1-898a-3b9a544265a0",
+    "data": [
+      {
+        "text": "สั่งอาหาร",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

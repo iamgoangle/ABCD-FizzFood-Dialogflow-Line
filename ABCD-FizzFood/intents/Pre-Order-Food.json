@@ -1,0 +1,36 @@
+{
+  "id": "041d2753-609c-4199-9529-489a776c4f5d",
+  "name": "Pre-Order-Food",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Pre-Order-Food-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "th",
+          "speech": [
+            "ขอทราบเมนูอาหารที่ลูกค้าต้องการสั่งด้วยค่ะ",
+            "คุณลูกค้าจะสั่งออร์เดอร์ อะไรดีค่ะ"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

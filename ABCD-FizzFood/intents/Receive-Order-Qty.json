@@ -1,0 +1,49 @@
+{
+  "id": "5d397cec-a8a0-4203-9857-74005b853963",
+  "parentId": "803b77ed-3a03-4caa-b7a2-bc4b4154768c",
+  "rootParentId": "041d2753-609c-4199-9529-489a776c4f5d",
+  "name": "Receive-Order-Qty",
+  "auto": true,
+  "contexts": [
+    "Receive-Order-User",
+    "Receive-Order-User-followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Pre-Order-Food.Pre-Order-Food-custom.Receive-Order-User-custom",
+      "affectedContexts": [
+        {
+          "name": "Receive-Order-Qty-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d926b5dc-6aa8-4a16-b6d4-02bc66b3d1b6",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "qty",
+          "value": "$qty",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "th",
+          "speech": "Order ลูกค้าเป็น #Receive-Order-User.menuitem จำนวน $qty ชุด นะคะ คุณลูกค้าต้องการยืนยัน Order เลยไหมค่ะ?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510944718,
+  "fallbackIntent": false,
+  "events": []
+}
